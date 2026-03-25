@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FoodFly - Fresh & delicious food delivered fast. Order premium meals, combos, and offers online." />
+  <title>FoodFly | Premium Food Delivery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar sticky">
+    <a class="logo" href="index.html">🍽️ FoodFly</a>
+    <nav class="desktop-nav">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="offers.html">Offers</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="icon-btn" href="cart.html" aria-label="Cart">🛒 <span id="cart-count">0</span></a>
+      <a class="btn btn-primary" href="order.html">Order Now</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="chip">Trusted by 15,000+ customers</p>
+        <h1>Fresh & Delicious Food Delivered Fast</h1>
+        <p>Premium meals, hygienic kitchens, and lightning-fast doorstep delivery. From pizza cravings to biryani nights—we've got your taste covered.</p>
+        <div class="hero-actions">
+          <a href="order.html" class="btn btn-primary">Order Now</a>
+          <a href="menu.html" class="btn btn-outline">View Menu</a>
+        </div>
+        <p class="delivery-time">⚡ Estimated delivery: 25-35 mins</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80" alt="Delicious pizza spread" />
+    </section>
+
+    <section>
+      <h2>Food Categories</h2>
+      <div class="grid cols-4 categories">
+        <article class="card">🍕 Pizza</article><article class="card">🍔 Burger</article><article class="card">🍛 Biryani</article>
+        <article class="card">🌯 Rolls</article><article class="card">🥡 Chinese</article><article class="card">🍰 Desserts</article><article class="card">🥤 Drinks</article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Best Sellers</h2>
+      <div class="grid cols-3" id="best-sellers"></div>
+    </section>
+
+    <section>
+      <h2>Why Choose Us</h2>
+      <div class="grid cols-4">
+        <article class="card">🌿 <strong>Fresh Ingredients</strong><p>Daily sourced, quality-checked ingredients.</p></article>
+        <article class="card">🛵 <strong>Fast Delivery</strong><p>Live order tracking with fast delivery promise.</p></article>
+        <article class="card">🧼 <strong>Hygienic Kitchen</strong><p>FSSAI-compliant cleanliness standards.</p></article>
+        <article class="card">💸 <strong>Affordable Prices</strong><p>Premium taste at pocket-friendly rates.</p></article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Combo Offers & Discounts</h2>
+      <div class="grid cols-3">
+        <article class="card offer"><span class="badge">Limited Offer</span><h3>Family Combo</h3><p>2 Pizzas + Garlic Bread + Coke</p><strong>30% OFF</strong></article>
+        <article class="card offer"><span class="badge">Free Delivery</span><h3>Weekend Special</h3><p>Free delivery on orders above $20</p><strong>Today Only</strong></article>
+        <article class="card offer"><span class="badge">First Order</span><h3>Welcome Deal</h3><p>Get flat 20% off on your first order</p><strong>Use: NEW20</strong></article>
+      </div>
+      <div class="countdown" id="offer-countdown"></div>
+    </section>
+
+    <section>
+      <h2>Customer Reviews</h2>
+      <div class="grid cols-3">
+        <article class="card"><p>⭐⭐⭐⭐⭐</p><p>"Food quality is outstanding and delivery is always on time."</p><small>- Emma</small></article>
+        <article class="card"><p>⭐⭐⭐⭐⭐</p><p>"Best biryani in town. Super clean packaging and quick support."</p><small>- Jason</small></article>
+        <article class="card"><p>⭐⭐⭐⭐⭐</p><p>"Great offers and easy checkout. Ordering from mobile is seamless."</p><small>- Sophia</small></article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq">
+        <details><summary>How long does delivery take?</summary><p>Most orders arrive within 25-35 minutes depending on location and traffic.</p></details>
+        <details><summary>Can I track my order live?</summary><p>Yes, every order includes real-time tracking and ETA updates.</p></details>
+        <details><summary>Do you have vegetarian options?</summary><p>Yes, use the Veg filter on the Menu page to browse only vegetarian dishes.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <a href="https://wa.me/1234567890" class="whatsapp">💬 Order on WhatsApp</a>
+  <a href="cart.html" class="sticky-cart">🛒 View Cart</a>
+
+  <footer class="footer">
+    <div>
+      <h3>🍽️ FoodFly</h3>
+      <p>Tasty. Premium. Fast.</p>
+    </div>
+    <div><h4>Quick Links</h4><a href="menu.html">Menu</a><a href="offers.html">Offers</a><a href="about.html">About</a></div>
+    <div><h4>Contact</h4><p>+1 555-0108</p><p>hello@foodfly.com</p><p>123 Main St, New York, NY</p></div>
+    <div><h4>Opening Hours</h4><p>Mon-Sun: 10:00 AM - 11:00 PM</p><p>Secure Payments: COD / UPI / Card / Wallet</p></div>
+  </footer>
+
+  <nav class="mobile-bottom-nav">
+    <a href="index.html">Home</a><a href="menu.html">Menu</a><a href="offers.html">Offers</a><a href="cart.html">Cart</a>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
